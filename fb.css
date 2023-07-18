@@ -1,0 +1,164 @@
+.header {
+    background-color: #3b5998;
+    width:100%;
+    height:85px;
+}
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-weight: bold;
+}
+.hlogo {
+    width: 50%;
+    padding-top: 20px;
+    float: left;
+}
+
+.fbtext {
+    color: white;
+    font-size: 45px;
+    margin-left: 200px;
+    /*margin top wont work here so u have to use padding in logo class to move the text*/
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica,Arial, sans-serif;
+}
+
+.login-controls {
+    margin-left: 170px;
+}
+
+.hlogin {
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 12px;
+    
+}
+.forgot {
+    color: #9cb4d8;
+    font-size: 12px;
+    text-decoration: none;
+}
+.loginbut {
+    background-color: #4267b2;
+    border-color: #29487d;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.loginbut:hover {
+    background-color:  #5983d6;
+    transition: 0.7s;
+}
+.left-section {
+    width: 60%;
+    float: left;
+    padding-top: 45px;
+}
+
+.right-section {
+    padding-top: 40px;
+    width: 40%;
+    float: left;
+}
+
+.main-body {
+    background:linear-gradient(white,#8a9cd7);
+    width: 100%;
+    height: 700px;
+}
+.image {
+    width: 550px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.para {
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 200px;
+}
+.txt {
+    text-align: left;
+}
+.txt1{
+    width: 21%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}   
+.num1 {
+    width: 43%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .btxt {
+    color: gray;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.forgot{
+    font-weight: bold;
+    font-size: 12px;
+    color: #9cb4d8;
+}
+
+.qmrk {
+    color:rgb(54, 53, 53);
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+input[type="date"]{
+    background: transparent;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}
+.stxt {
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+}
+button{
+    background-color:rgb(26, 146, 72); 
+    border-color:rgb(35, 144, 77) ;
+    color: rgb(255, 255, 255);
+    border-width:5px;
+    border-radius:4px;
+    padding: 5px 15px;
+    min-height: 40px;
+    min-width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ button:hover {
+     background-color: rgb(30, 163, 79);
+     transition: 0.7s;
+ }
+ .sbutton {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .link {
+    text-align: left;
+    color:#3b5998;
+    display: inline-block;
+    cursor: pointer;
+    font-size:14px;
+ }
+ .ftxt {
+    text-align: left;
+    font-size:14px;
+ }
